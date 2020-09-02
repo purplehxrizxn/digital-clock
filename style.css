@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'FonteDigital2';
+    src: url('../_fonts/DS-DIGIT.TTF')
+}
+
+@font-face {
+    font-family: 'Midias';
+    src: url('../_fonts/Corzie.ttf')
+}
+
+body {
+    margin-top: 200px;
+    background-color: #393e46;
+    color: #c4fb6d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+body div#relogio {
+    font-family: 'FonteDigital2';
+    text-align: center;
+}
+
+body div#data {
+    font-family: 'FonteDigital2';
+    text-align: center;
+    margin-top: -10px;
+}
+
+body h3 {
+    color: #eeeeee;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Midias';
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
