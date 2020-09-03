@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'FonteDigital2';
-    src: url('../_fonts/DS-DIGIT.TTF')
+    src: url('/digital-clock/_fonts/DS-DIGIT.TTF')
 }
 
 @font-face {
     font-family: 'Midias';
-    src: url('../_fonts/Corzie.ttf')
+    src: url('/digital-clock/_fonts/Corzie.ttf')
 }
 
 body {
@@ -16,6 +16,13 @@ body {
     font-size: 50px;
 }
 
+body p{
+    font-size: 20px;
+    text-align: center;
+    color: #eeeeee;
+
+}
+
 body div#relogio {
     font-family: 'FonteDigital2';
     text-align: center;
@@ -24,13 +31,7 @@ body div#relogio {
 body div#data {
     font-family: 'FonteDigital2';
     text-align: center;
-    margin-top: -10px;
-}
-
-body h3 {
-    color: #eeeeee;
-    font-size: 20px;
-    text-align: center;
+    margin-top: 0px;
 }
 
 a {
